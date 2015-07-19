@@ -5,4 +5,21 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="BlueButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/btn_bluebackground</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:onClick">ButtonOnClick</item>
+    </style>
+
+    <style name="RedButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/btn_redbackground</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:onClick">ButtonOnClick</item>
+    </style>
+
 </resources>

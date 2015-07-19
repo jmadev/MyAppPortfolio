@@ -23,71 +23,44 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
                 android:text="@string/title"
                 android:textSize="25sp" />
 
-
             <Button
+                style="@style/BlueButton"
                 android:id="@+id/btn_spotify"
-                android:layout_width="225dp"
-                android:layout_height="55dp"
                 android:layout_below="@+id/title"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="25dp"
-                android:background="#33CCFF"
                 android:text="@string/spotify" />
 
             <Button
+                style="@style/BlueButton"
                 android:id="@+id/btn_scores"
-                android:layout_width="225dp"
-                android:layout_height="55dp"
-                android:layout_alignLeft="@+id/btn_spotify"
-                android:layout_alignStart="@+id/btn_spotify"
                 android:layout_below="@+id/btn_spotify"
-                android:layout_marginBottom="10dp"
-                android:background="#33CCFF"
                 android:text="@string/scores" />
 
             <Button
+                style="@style/BlueButton"
                 android:id="@+id/btn_library"
-                android:layout_width="225dp"
-                android:layout_height="55dp"
                 android:layout_below="@+id/btn_scores"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:background="#33CCFF"
                 android:text="@string/library" />
 
             <Button
+                style="@style/BlueButton"
                 android:id="@+id/btn_build"
-                android:layout_width="225dp"
-                android:layout_height="55dp"
-                android:layout_alignLeft="@+id/btn_library"
-                android:layout_alignStart="@+id/btn_library"
                 android:layout_below="@+id/btn_library"
-                android:layout_marginBottom="10dp"
-                android:background="#33CCFF"
                 android:text="@string/build" />
 
             <Button
+                style="@style/BlueButton"
                 android:id="@+id/btn_bacon"
-                android:layout_width="225dp"
-                android:layout_height="55dp"
-                android:layout_alignLeft="@+id/btn_build"
-                android:layout_alignStart="@+id/btn_build"
                 android:layout_below="@+id/btn_build"
-                android:layout_marginBottom="10dp"
-                android:background="#33CCFF"
                 android:text="@string/bacon" />
 
             <Button
+                style="@style/RedButton"
                 android:id="@+id/btn_capstone"
-                android:layout_width="225dp"
-                android:layout_height="55dp"
                 android:layout_below="@+id/btn_bacon"
-                android:layout_centerHorizontal="true"
-                android:background="#FF6666"
                 android:text="@string/capstone" />
 
         </RelativeLayout>
